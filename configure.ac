@@ -1,0 +1,12 @@
+AC_INIT(ampheck, 0.1.0)
+AC_CONFIG_SRCDIR(configure.ac)
+AM_INIT_AUTOMAKE
+
+AC_LANG_C
+AC_PROG_CC
+AC_PROG_LIBTOOL
+
+AC_HEADER_STDC
+
+AC_CONFIG_HEADERS(config.h)
+AC_OUTPUT(Makefile src/Makefile)

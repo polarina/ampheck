@@ -1,0 +1,20 @@
+2009-03-15  Gabríel A. Pétursson <gabrielp@simnet.is>
+	* ripemd160.c, ripemd160.h: new files, implemented.
+
+2009-03-14  Gabríel A. Pétursson <gabrielp@simnet.is>
+	* sha0.c, sha0.h: new files, implemented.
+
+2009-03-12  Gabríel A. Pétursson <gabrielp@simnet.is>
+	* md4.c, md5.c, sha1.c, sha256.c, sha512.c: replaced a copy in `finish' with a memcpy.
+
+2009-03-07  Gabríel A. Pétursson <gabrielp@simnet.is>
+	* sha1.c, sha1.h: new files, implemented.
+	* md5.c, md5.h: new files, implemented.
+	* md4.c, md4.h: new files, implemented.
+
+2009-03-06  Gabríel A. Pétursson <gabrielp@simnet.is>
+	* ampheck.h: new file, generic macros.
+	* sha256.c, sha256.h: new files, implemented.
+	* sha224.c, sha224.h: new files, implemented.
+	* sha512.c, sha512.h: new files, implemented.
+	* sha384.c, sha384.h: new files, implemented.
